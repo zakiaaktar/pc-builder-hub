@@ -1,0 +1,58 @@
+{
+    "pcs": [
+        {
+            "id": 1,
+            "title": "Sumsung Monitor",
+            "status": "In Stock",
+            "category": "Monitor",
+            "price": 30000,
+            "rating": 4,
+            "image_url": "/images/monitor.jpg"
+        },
+        {
+            "id": 2,
+            "title": "hp Printer",
+            "status": "Out of Stock",
+            "category": "Printer",
+            "price": 15000,
+            "rating": 5,
+            "image_url": "/images/exercise_image.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Vulcan Graphic Card",
+            "status": "In Stock",
+            "category": "Graphic Card",
+            "price": 18000,
+            "rating": 5,
+            "image_url": "/images/exercise_image.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Logitec Mouse",
+            "status": "In Stock",
+            "category": "Mouse",
+            "price": 1500,
+            "rating": 4,
+            "image_url": "/images/exercise_image.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Logitec Keyboard",
+            "status": "In Stock",
+            "category": "Keyboard",
+            "price": 1800,
+            "rating": 4,
+            "image_url": "/images/exercise_image.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Logitec Portable Power Station",
+            "status": "In Stock",
+            "category": "Power Station",
+            "price": 2800,
+            "rating": 4,
+            "image_url": "/images/exercise_image.jpg"
+        }
+    ]
+}
