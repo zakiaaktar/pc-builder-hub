@@ -1,7 +1,7 @@
 .social_icons a{
     font-size: 28px;
     margin: 15px 3px;
-    color: "#E25E3E";
+    color: rgb(207, 99, 99);
 }
 
 .menu_items a{
@@ -14,5 +14,5 @@
 .line{
     height: 5px;
     margin: 10px 0;
-    background: "#E25E3E";
+    background: rgb(201, 91, 69);
 }

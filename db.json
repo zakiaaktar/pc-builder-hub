@@ -34,7 +34,7 @@
             "category": "Mouse",
             "price": 1500,
             "rating": 4,
-            "image_url": "/images/exercise_image.jpg"
+            "image_url": "/images/Logitec Mouse.jpg"
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "category": "Keyboard",
             "price": 1800,
             "rating": 4,
-            "image_url": "/images/exercise_image.jpg"
+            "image_url": "/images/Logitec Keyboard.jpg"
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@
             "category": "Power Station",
             "price": 2800,
             "rating": 4,
-            "image_url": "/images/exercise_image.jpg"
+            "image_url": "/images/Logitec Portable Power Station.jpg"
         }
     ]
 }
