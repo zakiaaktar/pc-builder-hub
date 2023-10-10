@@ -17,12 +17,8 @@ const HomePage = ({ allPcs }) => {
       <Banner />
 
       <AllPcs allPcs={allPcs} />
-
-
     </div>
-
-
-  );
+);
 };
 
 export default HomePage;

@@ -5,7 +5,7 @@
             "title": "Sumsung Monitor",
             "status": "In Stock",
             "category": "Monitor",
-            "price": 30000,
+            "price": 300,
             "rating": 4,
             "image_url": "/images/monitor.jpg"
         },
@@ -14,7 +14,7 @@
             "title": "hp Printer",
             "status": "Out of Stock",
             "category": "Printer",
-            "price": 15000,
+            "price": 150,
             "rating": 5,
             "image_url": "/images/hp Printer.jpg"
         },
@@ -23,7 +23,7 @@
             "title": "Vulcan Graphic Card",
             "status": "In Stock",
             "category": "Graphic Card",
-            "price": 18000,
+            "price": 180,
             "rating": 5,
             "image_url": "/images/Vulcan Graphic Card.jpg"
         },
@@ -32,7 +32,7 @@
             "title": "Logitec Mouse",
             "status": "In Stock",
             "category": "Mouse",
-            "price": 1500,
+            "price": 150,
             "rating": 4,
             "image_url": "/images/Logitec Mouse.jpg"
         },
@@ -41,7 +41,7 @@
             "title": "Logitec Keyboard",
             "status": "In Stock",
             "category": "Keyboard",
-            "price": 1800,
+            "price": 180,
             "rating": 4,
             "image_url": "/images/Logitec Keyboard.jpg"
         },
@@ -50,7 +50,7 @@
             "title": "Logitec Portable Power Station",
             "status": "In Stock",
             "category": "Power Station",
-            "price": 2800,
+            "price": 280,
             "rating": 4,
             "image_url": "/images/Logitec Portable Power Station.jpg"
         }

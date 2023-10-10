@@ -21,7 +21,7 @@ const RootLayout = ({ children }) => {
         <div className="brand-logo">
           <h1>
             <Link
-              href="/"
+              href="/pcBuilder"
               style={{
                 color: "white",
                 background: "#E25E3E",
@@ -35,7 +35,7 @@ const RootLayout = ({ children }) => {
         </div>
         <Menu theme="dark" mode="vertical" className={styles.menu_items}>
           
-          <Link href="/">
+          <Link href="/category">
             <items
               style={{
                 margin: "0px 25px",
