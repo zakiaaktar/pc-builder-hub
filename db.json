@@ -16,7 +16,7 @@
             "category": "Printer",
             "price": 15000,
             "rating": 5,
-            "image_url": "/images/exercise_image.jpg"
+            "image_url": "/images/hp Printer.jpg"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "category": "Graphic Card",
             "price": 18000,
             "rating": 5,
-            "image_url": "/images/exercise_image.jpg"
+            "image_url": "/images/Vulcan Graphic Card.jpg"
         },
         {
             "id": 4,

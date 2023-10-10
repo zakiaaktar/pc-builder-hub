@@ -1,7 +1,4 @@
 import {
-  
-  MobileOutlined,
-  
   FacebookFilled,
   LinkedinFilled,
   GoogleSquareFilled,
@@ -27,7 +24,7 @@ const RootLayout = ({ children }) => {
               href="/"
               style={{
                 color: "white",
-                backgroundColor: "#404059",
+                background: "#E25E3E",
                 padding: "5px 10px",
                 borderRadius: "3px",
               }}
@@ -42,6 +39,7 @@ const RootLayout = ({ children }) => {
             <items
               style={{
                 margin: "0px 25px",
+               color: "#E25E3E",
               }}
             >
              Category
@@ -87,7 +85,7 @@ const RootLayout = ({ children }) => {
             <LinkedinFilled />
           </Link>
         </p>
-        PC BUILDER HUB ©2023 Created by Zaki Aktar
+        PC BUILDER HUB ©2023 Created by Zakia Aktar
       </Footer>
     </Layout>
   );

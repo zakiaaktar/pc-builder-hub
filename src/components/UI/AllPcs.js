@@ -2,9 +2,7 @@ import { Card, Col, Row } from "antd";
 import Image from "next/image";
 import {
   ArrowRightOutlined,
-  CalendarOutlined,
-  CommentOutlined,
-  ProfileOutlined,
+  
 } from "@ant-design/icons";
 import Link from "next/link";
 
@@ -19,6 +17,7 @@ const AllPcs = ({ allPcs }) => {
           textAlign: "center",
           fontSize: "50px",
           margin: "30px 0px",
+          color: "#E25E3E",
         }}
       >
         Featured Category
@@ -32,14 +31,14 @@ const AllPcs = ({ allPcs }) => {
         }}
       >
         {allPcs?.map((pcs) => (
-          <Col key={pcs.id} className="gutter-row" span={6}>
+          <Col key={pcs.id} className="gutter-row" span={8}>
             <Card
               hoverable
               cover={
                 <Image
                   src={pcs?.image_url}
-                  width={500}
-                  height={200}
+                  width={100}
+                  height={250}
                   responsive
                   alt="pcs image"
                 />
@@ -51,7 +50,7 @@ const AllPcs = ({ allPcs }) => {
                 style={{
                   height: "5px",
                   margin: "20px 0",
-                  background: "#000",
+                  background: "#E25E3E",
                   width: "100%",
                 }}
               ></div>
@@ -63,7 +62,7 @@ const AllPcs = ({ allPcs }) => {
                   width: "100%",
                   color: "gray",
                   margin: "10px 0px",
-                  fontSize: "12px",
+                  fontSize: "15px",
                 }}
               >
                 <span>
@@ -77,23 +76,20 @@ const AllPcs = ({ allPcs }) => {
                 </span>
               </p>
 
-              {/* <p style={{ fontSize: "15px" }}>
-                {pcs?.description.length > 100
-                  ? pcs?.description.slice(0, 70) + "..."
-                  : pcs?.description}
-              </p> */}
+             
               <Link href={`/pcs/${pcs?.id}`}>
                 <p
                   style={{
                     fontSize: "15px",
                     marginTop: "20px",
-                    backgroundColor: "black",
+                    backgroundColor: "#E25E3E",
                     color: "white",
                     width: "100%",
-                    padding: "2px 5px ",
+                    padding: "8px 7px ",
                     fontWeight: "300",
                     letterSpacing: "3px",
                     textAlign: "center",
+                    
                   }}
                 >
                   View Deatails <ArrowRightOutlined />

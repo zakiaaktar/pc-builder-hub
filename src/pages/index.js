@@ -1,26 +1,27 @@
 import AllPcs from "@/components/UI/AllPcs";
+import Banner from "@/components/UI/Banner";
 import Head from "next/head";
 import RootLayout from "../components/Layouts/RootLayout";
 
 
-const HomePage = ({allPcs}) => {
+const HomePage = ({ allPcs }) => {
   //console.log(allPcs);
 
   return (
     <div>
       <Head>
-        <title>pc builder hub</title>
-        <meta name="home page" description="this page is cretaed by next js" />
+        <title>PC BUILDER HUB</title>
+        <meta name="home page" description="This page is cretaed by next js" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      
+      <Banner />
+
+      <AllPcs allPcs={allPcs} />
 
 
-      <AllPcs allPcs={allPcs}/>
-
-      
     </div>
 
-    
+
   );
 };
 
