@@ -35,7 +35,18 @@ HomePage.getLayout = function getLayout(page) {
 
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:4000/pcs");
+
+  if (typeof window === 'undefined'){
+    return {
+      props: {
+        allPcs: [],
+      },
+      
+    };
+  }
+
+
+  const res = await fetch(`${process.env.URL}/pcs`);
   const data = await res.json();
   //console.log(data);
 

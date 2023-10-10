@@ -71,7 +71,7 @@ PcsDetailPage.getLayout = function getLayout(page) {
 
 export const getServerSideProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:4000/pcs/${params.pcsId}`);
+  const res = await fetch(`${process.env.URL}/pcs/${params.pcsId}`);
   const data = await res.json();
   // console.log(data);
 
@@ -81,3 +81,5 @@ export const getServerSideProps = async (context) => {
     },
   };
 };
+
+
